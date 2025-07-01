@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App AI</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="questions.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet"></head>
+<body>
+    <label><input type="radio" value="quiz" name="mode" id="quiz_btn">Quiz Mode</label>
+    <label><input type="radio" value="exam" name="mode" id="exam_btn">Exam Mode</label>
+
+
+    <div id="quiz_container" class="container" style="display:none;">
+        <h1>Quiz Mode</h1>
+        <div id="quiz_question"></div>
+        <button id="nextQuestionBtn">Next</button>
+        </div>
+
+    <div id="exam_container" class="container" style="display:none;">
+        <h1>Exam Mode</h1>
+        </div>
+
+    <script src="questions.js"></script>
+    </body>
+    </html>
